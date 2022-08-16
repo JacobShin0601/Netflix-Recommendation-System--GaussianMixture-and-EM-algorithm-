@@ -6,7 +6,7 @@ import common
 import naive_em
 import em
 
-X = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/toy_data.txt")
+X = np.loadtxt("toy_data.txt")
 
 # TODO: Your code here
 # G, post = common.init(X, K=3, seed=0)

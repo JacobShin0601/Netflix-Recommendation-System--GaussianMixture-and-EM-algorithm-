@@ -3,8 +3,8 @@ import em
 import common
 
 #%% Testing implementation of EM algorithm
-X = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/test_incomplete.txt")
-X_gold = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/test_complete.txt")
+X = np.loadtxt("test_incomplete.txt")
+X_gold = np.loadtxt("test_complete.txt")
 
 n, d = X.shape
 
@@ -20,8 +20,8 @@ rmse = common.rmse(X_gold, X_predict)
 #%% Begin: Comparison of EM for matrix completion with K = 1 and 12
 import time
 
-X = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/netflix_incomplete.txt")
-X_gold = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/netflix_complete.txt")
+X = np.loadtxt("netflix_incomplete.txt")
+X_gold = np.loadtxt("netflix_complete.txt")
 
 K = [1, 12]    # Clusters to try
 

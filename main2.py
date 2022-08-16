@@ -5,7 +5,7 @@ import common
 import naive_em
 import em
 
-X = np.loadtxt("MIT_class/Machine_Learning_with_Python/project3/netflix/netflix_incomplete.txt")
+X = np.loadtxt("netflix_incomplete.txt")
 
 K = [1, 12]    # Clusters to try
 seeds = [0, 1, 2, 3, 4]     # Seeds to try
